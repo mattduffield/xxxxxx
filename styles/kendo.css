@@ -1,0 +1,44 @@
+#tshirt {
+    display: block;
+    margin: 2em auto;
+}
+.k-readonly {
+  color: gray;
+}
+#cap {
+  width: 242px;
+  height: 225px;
+  margin: 20px auto;
+  background-image: url('https://demos.telerik.com/kendo-ui/content/web/dropdownlist/cap.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.black-cap {
+  background-position: 0 0;
+}
+.grey-cap {
+  background-position: 0 -225px;
+}
+
+.orange-cap {
+  background-position: 0 -450px;
+}
+.customer-photo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: 32px 35px;
+  background-position: center center;
+  vertical-align: middle;
+  line-height: 32px;
+  box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+  margin-left: 5px;
+}
+
+.customer-name {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding-left: 3px;
+}
